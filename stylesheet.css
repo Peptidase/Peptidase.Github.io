@@ -8,11 +8,13 @@
 	margin-left:250px;
 	margin-right:250px;
 	margin-bottom:100px;
-	background-color: rgba(219, 232, 255, 0.4);
+	background-color: rgba(219, 232, 255, 0.3);
 }
 
 body{
 background-color:#000;	
+background-image:url("Trippy.gif");
+background-size: cover;
 	
 }
 
