@@ -9,25 +9,51 @@
 	margin-right:250px;
 	margin-bottom:100px;
 	background-color: rgba(219, 232, 255, 0.3);
+	/* Main content of the page is kept in section here*/
 }
 
-body{
-	
-
-background-size: cover;
-	
+body
+{
+	background-size: cover;
+	/* Reserved for image/ background script i will complete later*/
 }
 
 .Title{
 	text-align:center;
 	font-family:Arial;
 	
-	
 }
 
 .warning {
 	text-align:center;
 	font-family:Arial;	
+}
+
+
+
+
+/* Section below is for all image links to other pages*/
+img
+{
+	height:200px;
+	width:250px;
+}
+.image1
+{
+	margin-top:100px;
+	margin-left:100px;
 	
+}
+.image2
+{
+	margin-top:100px;
+	margin-left:100px;
+	
+}
+.image3
+{
+	margin-top:100px;
+	margin-left:100px;
+	margin-right:100px;
 	
 }
