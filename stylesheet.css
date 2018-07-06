@@ -8,13 +8,14 @@
 	margin-left:250px;
 	margin-right:250px;
 	margin-bottom:100px;
-	background-color: rgba(219, 232, 255, 0.3);
+	background-color:#bac7be;
 	/* Main content of the page is kept in section here*/
 }
 
 body
 {
-	background-size: cover;
+
+	background-color:#c2e1c2;
 	/* Reserved for image/ background script i will complete later*/
 }
 
