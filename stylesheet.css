@@ -1,10 +1,25 @@
 body{
 background-color:black;
-height:100vh;
+height:100%;
 margin : 0 ; padding : 0 ;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(145,145,146,1) 100%);
+}
+
+html{
+    padding:0px;
+
+}
+#TitleWrapper{
+background-color:black;
+
 
 }
 
+#TitleWrapper h1{
+    margin-top: 0;
+
+}
 a{
 color:white;
 text-decoration:none;
@@ -40,7 +55,7 @@ padding-left:10%;
 color:white;
 background-color:#1a1a2e;
 opacity:0.5;
-height:75vh;
+height:33vh;
 }
 .Container:hover{
 opacity:1;
@@ -54,8 +69,7 @@ transition:1s;
     height:100%;
     flex-direction:column;
     justify-content:center;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(145,145,146,1) 100%);
+
 }
 
 
