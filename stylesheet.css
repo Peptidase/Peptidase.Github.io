@@ -1,60 +1,62 @@
-@charset "utf-8";
-/* CSS Document */
+body{
+background-color:black;
+height:100vh;
+margin : 0 ; padding : 0 ;
 
-.MainBody {
-	height:1000px;
-	padding:40px;
-	margin-top:100px;
-	margin-left:250px;
-	margin-right:250px;
-	margin-bottom:100px;
-	background-color:#bac7be;
-	/* Main content of the page is kept in section here*/
 }
 
-body
+a{
+color:white;
+text-decoration:none;
+}
+a:visited {
+  color: white;
+  text-decoration:none;
+
+}
+a:hover{
+color:#7a8485;
+transition:1s;
+
+
+}
+
+#TitleWrapper{
+height:30vh;
+color:white;
+text-align:center;
+font-family: "Lucida Console", Courier, monospace;
+
+}
+
+
+
+
+.Container
 {
+text-align:left;
+line-height:200px;
+padding-left:10%;
+color:white;
+background-color:#1a1a2e;
+opacity:0.5;
+height:75vh;
+}
+.Container:hover{
+opacity:1;
+transition:1s;
 
-	background-color:#c2e1c2;
-	/* Reserved for image/ background script i will complete later*/
 }
 
-.Title{
-	text-align:center;
-	font-family:Arial;
-	
+#ColumnContainer{
+  font-family: "Lucida Console", Courier, monospace;
+    display:flex;
+    height:100%;
+    flex-direction:column;
+    justify-content:center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(145,145,146,1) 100%);
 }
-
-.warning {
-	text-align:center;
-	font-family:Arial;	
-}
-
 
 
 
-/* Section below is for all image links to other pages*/
-img
-{
-	height:200px;
-	width:250px;
-}
-.image1
-{
-	margin-top:100px;
-	margin-left:100px;
-	
-}
-.image2
-{
-	margin-top:100px;
-	margin-left:100px;
-	
-}
-.image3
-{
-	margin-top:100px;
-	margin-left:100px;
-	margin-right:100px;
-	
-}
